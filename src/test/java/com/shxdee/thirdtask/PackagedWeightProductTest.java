@@ -1,8 +1,7 @@
 package main;
 
 import org.testng.annotations.Test;
-
-import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.*;
 
 public class PackagedWeightProductTest {
     PackagedWeightProduct product = new PackagedWeightProduct(new ProductPackaging("Коробка", 10.0),

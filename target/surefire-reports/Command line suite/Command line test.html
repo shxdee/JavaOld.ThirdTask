@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>40/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Dec 16 22:31:46 OMST 2021</td>
+<td>Started on:</td><td>Fri Dec 17 01:02:23 OMST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (71 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (70 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,18 +75,91 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='main.PackagedProductSetTest.testGetNetWeight()'><b>testGetNetWeight</b><br>Test class: main.PackagedProductSetTest</td>
+<td title='main.PackagedWeightProductTest.testGetNetWeight()'><b>testGetNetWeight</b><br>Test class: main.PackagedWeightProductTest</td>
 <td></td>
 <td>0</td>
-<td>main.PackagedProductSetTest@1da51a35</td></tr>
+<td>main.PackagedWeightProductTest@44a3ec6b</td></tr>
+<tr>
+<td title='main.ProductBatchTest.testGetDescription()'><b>testGetDescription</b><br>Test class: main.ProductBatchTest</td>
+<td></td>
+<td>0</td>
+<td>main.ProductBatchTest@5a4041cc</td></tr>
+<tr>
+<td title='main.WeightProductTest.testConstructorNullDescription()'><b>testConstructorNullDescription</b><br>Test class: main.WeightProductTest</td>
+<td><div><pre>java.lang.IllegalArgumentException
+	at main.Product.&lt;init&gt;(Product.java:13)
+	at main.WeightProduct.&lt;init&gt;(WeightProduct.java:7)
+	at main.WeightProductTest.testConstructorNullDescription(WeightProductTest.java:14)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2045766957", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2045766957'><pre>java.lang.IllegalArgumentException
+	at main.Product.&lt;init&gt;(Product.java:13)
+	at main.WeightProduct.&lt;init&gt;(WeightProduct.java:7)
+	at main.WeightProductTest.testConstructorNullDescription(WeightProductTest.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</pre></div></td>
+<td>0</td>
+<td>main.WeightProductTest@3439f68d</td></tr>
+<tr>
+<td title='main.ContainsStringFilterTest.testApplyOK()'><b>testApplyOK</b><br>Test class: main.ContainsStringFilterTest</td>
+<td></td>
+<td>0</td>
+<td>main.ContainsStringFilterTest@3b94d659</td></tr>
+<tr>
+<td title='main.PackagedPieceProductTest.testGetProduct()'><b>testGetProduct</b><br>Test class: main.PackagedPieceProductTest</td>
+<td></td>
+<td>0</td>
+<td>main.PackagedPieceProductTest@543788f3</td></tr>
+<tr>
+<td title='main.ContainsStringFilterTest.testApplyFalse()'><b>testApplyFalse</b><br>Test class: main.ContainsStringFilterTest</td>
+<td></td>
+<td>0</td>
+<td>main.ContainsStringFilterTest@3b94d659</td></tr>
 <tr>
 <td title='main.PackagedWeightProductTest.testConstructorNegativeWeight()'><b>testConstructorNegativeWeight</b><br>Test class: main.PackagedWeightProductTest</td>
 <td><div><pre>java.lang.IllegalArgumentException: Negative weight!
 	at main.PackagedWeightProduct.&lt;init&gt;(PackagedWeightProduct.java:15)
 	at main.PackagedWeightProductTest.testConstructorNegativeWeight(PackagedWeightProductTest.java:13)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace688726285", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace688726285'><pre>java.lang.IllegalArgumentException: Negative weight!
+... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace295221641", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace295221641'><pre>java.lang.IllegalArgumentException: Negative weight!
 	at main.PackagedWeightProduct.&lt;init&gt;(PackagedWeightProduct.java:15)
 	at main.PackagedWeightProductTest.testConstructorNegativeWeight(PackagedWeightProductTest.java:13)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -131,136 +204,30 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>main.PackagedWeightProductTest@44a3ec6b</td></tr>
 <tr>
-<td title='main.ProductTest.getNameTest()'><b>getNameTest</b><br>Test class: main.ProductTest</td>
-<td></td>
-<td>0</td>
-<td>main.ProductTest@140e5a13</td></tr>
-<tr>
-<td title='main.ContainsStringFilterTest.testApplyOK()'><b>testApplyOK</b><br>Test class: main.ContainsStringFilterTest</td>
-<td></td>
-<td>0</td>
-<td>main.ContainsStringFilterTest@3b94d659</td></tr>
-<tr>
-<td title='main.ProductPackagingTest.getNameTest()'><b>getNameTest</b><br>Test class: main.ProductPackagingTest</td>
-<td></td>
-<td>0</td>
-<td>main.ProductPackagingTest@15b3e5b</td></tr>
-<tr>
-<td title='main.ProductPackagingTest.testConstructorNegativeWeight()'><b>testConstructorNegativeWeight</b><br>Test class: main.ProductPackagingTest</td>
-<td><div><pre>java.lang.IllegalArgumentException: Negative weight!
-	at main.ProductPackaging.&lt;init&gt;(ProductPackaging.java:14)
-	at main.ProductPackagingTest.testConstructorNegativeWeight(ProductPackagingTest.java:20)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace111156771", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace111156771'><pre>java.lang.IllegalArgumentException: Negative weight!
-	at main.ProductPackaging.&lt;init&gt;(ProductPackaging.java:14)
-	at main.ProductPackagingTest.testConstructorNegativeWeight(ProductPackagingTest.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</pre></div></td>
-<td>0</td>
-<td>main.ProductPackagingTest@15b3e5b</td></tr>
-<tr>
-<td title='main.ProductPackagingTest.getWeightTest()'><b>getWeightTest</b><br>Test class: main.ProductPackagingTest</td>
-<td></td>
-<td>0</td>
-<td>main.ProductPackagingTest@15b3e5b</td></tr>
-<tr>
 <td title='main.ProductPackagingTest.equalsTest()'><b>equalsTest</b><br>Test class: main.ProductPackagingTest</td>
 <td></td>
 <td>0</td>
 <td>main.ProductPackagingTest@15b3e5b</td></tr>
-<tr>
-<td title='main.ProductPackagingTest.toStringTest()'><b>toStringTest</b><br>Test class: main.ProductPackagingTest</td>
-<td></td>
-<td>0</td>
-<td>main.ProductPackagingTest@15b3e5b</td></tr>
-<tr>
-<td title='main.PackagedPieceProductTest.testGetProduct()'><b>testGetProduct</b><br>Test class: main.PackagedPieceProductTest</td>
-<td></td>
-<td>0</td>
-<td>main.PackagedPieceProductTest@543788f3</td></tr>
-<tr>
-<td title='main.ContainsStringFilterTest.testApplyFalse()'><b>testApplyFalse</b><br>Test class: main.ContainsStringFilterTest</td>
-<td></td>
-<td>0</td>
-<td>main.ContainsStringFilterTest@3b94d659</td></tr>
 <tr>
 <td title='main.PackagedPieceProductTest.testGetNetWeight()'><b>testGetNetWeight</b><br>Test class: main.PackagedPieceProductTest</td>
 <td></td>
 <td>0</td>
 <td>main.PackagedPieceProductTest@543788f3</td></tr>
 <tr>
-<td title='main.ProductBatchTest.testGetDescription()'><b>testGetDescription</b><br>Test class: main.ProductBatchTest</td>
+<td title='main.ProductPackagingTest.getNameTest()'><b>getNameTest</b><br>Test class: main.ProductPackagingTest</td>
 <td></td>
 <td>0</td>
-<td>main.ProductBatchTest@5a4041cc</td></tr>
+<td>main.ProductPackagingTest@15b3e5b</td></tr>
 <tr>
-<td title='main.ProductBatchTest.testGetWeight()'><b>testGetWeight</b><br>Test class: main.ProductBatchTest</td>
-<td></td>
-<td>0</td>
-<td>main.ProductBatchTest@5a4041cc</td></tr>
-<tr>
-<td title='main.BeginStringFilterTest.testGetPattern()'><b>testGetPattern</b><br>Test class: main.BeginStringFilterTest</td>
-<td></td>
-<td>0</td>
-<td>main.BeginStringFilterTest@5d11346a</td></tr>
-<tr>
-<td title='main.EndStringFilterTest.testApplyOK()'><b>testApplyOK</b><br>Test class: main.EndStringFilterTest</td>
-<td></td>
-<td>0</td>
-<td>main.EndStringFilterTest@35a50a4c</td></tr>
-<tr>
-<td title='main.ProductServiceTest.testCounter()'><b>testCounter</b><br>Test class: main.ProductServiceTest</td>
-<td></td>
-<td>0</td>
-<td>main.ProductServiceTest@4bb4de6a</td></tr>
-<tr>
-<td title='main.ProductTest.testConstructorNullName()'><b>testConstructorNullName</b><br>Test class: main.ProductTest</td>
+<td title='main.ProductPackagingTest.testConstructorNullName()'><b>testConstructorNullName</b><br>Test class: main.ProductPackagingTest</td>
 <td><div><pre>java.lang.IllegalArgumentException
-	at main.Product.&lt;init&gt;(Product.java:13)
-	at main.ProductTest.testConstructorNullName(ProductTest.java:14)
+	at main.ProductPackaging.&lt;init&gt;(ProductPackaging.java:15)
+	at main.ProductPackagingTest.testConstructorNullName(ProductPackagingTest.java:14)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace689401025", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace689401025'><pre>java.lang.IllegalArgumentException
-	at main.Product.&lt;init&gt;(Product.java:13)
-	at main.ProductTest.testConstructorNullName(ProductTest.java:14)
+... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1076770748", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1076770748'><pre>java.lang.IllegalArgumentException
+	at main.ProductPackaging.&lt;init&gt;(ProductPackaging.java:15)
+	at main.ProductPackagingTest.testConstructorNullName(ProductPackagingTest.java:14)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -300,6 +267,72 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </pre></div></td>
+<td>0</td>
+<td>main.ProductPackagingTest@15b3e5b</td></tr>
+<tr>
+<td title='main.BeginStringFilterTest.testGetPattern()'><b>testGetPattern</b><br>Test class: main.BeginStringFilterTest</td>
+<td></td>
+<td>0</td>
+<td>main.BeginStringFilterTest@5d11346a</td></tr>
+<tr>
+<td title='main.ProductTest.testConstructorNullDescription()'><b>testConstructorNullDescription</b><br>Test class: main.ProductTest</td>
+<td><div><pre>java.lang.IllegalArgumentException
+	at main.Product.&lt;init&gt;(Product.java:13)
+	at main.ProductTest.testConstructorNullDescription(ProductTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1157726741", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1157726741'><pre>java.lang.IllegalArgumentException
+	at main.Product.&lt;init&gt;(Product.java:13)
+	at main.ProductTest.testConstructorNullDescription(ProductTest.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</pre></div></td>
+<td>0</td>
+<td>main.ProductTest@140e5a13</td></tr>
+<tr>
+<td title='main.EndStringFilterTest.testApplyOK()'><b>testApplyOK</b><br>Test class: main.EndStringFilterTest</td>
+<td></td>
+<td>0</td>
+<td>main.EndStringFilterTest@35a50a4c</td></tr>
+<tr>
+<td title='main.ProductTest.equalsTest()'><b>equalsTest</b><br>Test class: main.ProductTest</td>
+<td></td>
 <td>0</td>
 <td>main.ProductTest@140e5a13</td></tr>
 <tr>
@@ -313,60 +346,15 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>main.PackagedWeightProductTest@44a3ec6b</td></tr>
 <tr>
-<td title='main.ProductTest.toStringTest()'><b>toStringTest</b><br>Test class: main.ProductTest</td>
-<td></td>
-<td>0</td>
-<td>main.ProductTest@140e5a13</td></tr>
-<tr>
-<td title='main.ContainsStringFilterTest.testGetPattern()'><b>testGetPattern</b><br>Test class: main.ContainsStringFilterTest</td>
-<td></td>
-<td>0</td>
-<td>main.ContainsStringFilterTest@3b94d659</td></tr>
-<tr>
-<td title='main.ProductServiceTest.testCheckAllWeighted()'><b>testCheckAllWeighted</b><br>Test class: main.ProductServiceTest</td>
-<td></td>
-<td>0</td>
-<td>main.ProductServiceTest@4bb4de6a</td></tr>
-<tr>
-<td title='main.PackagedWeightProductTest.testGetNetWeight()'><b>testGetNetWeight</b><br>Test class: main.PackagedWeightProductTest</td>
-<td></td>
-<td>0</td>
-<td>main.PackagedWeightProductTest@44a3ec6b</td></tr>
-<tr>
-<td title='main.ProductTest.getWeightTest()'><b>getWeightTest</b><br>Test class: main.ProductTest</td>
-<td></td>
-<td>0</td>
-<td>main.ProductTest@140e5a13</td></tr>
-<tr>
-<td title='main.ProductBatchTest.testGetProducts()'><b>testGetProducts</b><br>Test class: main.ProductBatchTest</td>
-<td></td>
-<td>0</td>
-<td>main.ProductBatchTest@5a4041cc</td></tr>
-<tr>
-<td title='main.BeginStringFilterTest.testApplyFalse()'><b>testApplyFalse</b><br>Test class: main.BeginStringFilterTest</td>
-<td></td>
-<td>0</td>
-<td>main.BeginStringFilterTest@5d11346a</td></tr>
-<tr>
-<td title='main.PackagedPieceProductTest.testGetCount()'><b>testGetCount</b><br>Test class: main.PackagedPieceProductTest</td>
-<td></td>
-<td>0</td>
-<td>main.PackagedPieceProductTest@543788f3</td></tr>
-<tr>
-<td title='main.ProductServiceTest.testDeepCounter()'><b>testDeepCounter</b><br>Test class: main.ProductServiceTest</td>
-<td></td>
-<td>0</td>
-<td>main.ProductServiceTest@4bb4de6a</td></tr>
-<tr>
 <td title='main.PieceProductTest.testConstructorNegativeWeight()'><b>testConstructorNegativeWeight</b><br>Test class: main.PieceProductTest</td>
 <td><div><pre>java.lang.IllegalArgumentException
 	at main.PieceProduct.&lt;init&gt;(PieceProduct.java:13)
-	at main.PieceProductTest.testConstructorNegativeWeight(PieceProductTest.java:9)
+	at main.PieceProductTest.testConstructorNegativeWeight(PieceProductTest.java:10)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1344199921", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1344199921'><pre>java.lang.IllegalArgumentException
+... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2124643775", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2124643775'><pre>java.lang.IllegalArgumentException
 	at main.PieceProduct.&lt;init&gt;(PieceProduct.java:13)
-	at main.PieceProductTest.testConstructorNegativeWeight(PieceProductTest.java:9)
+	at main.PieceProductTest.testConstructorNegativeWeight(PieceProductTest.java:10)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -409,20 +397,88 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>main.PieceProductTest@71623278</td></tr>
 <tr>
-<td title='main.PackagedProductSetTest.testGetProducts()'><b>testGetProducts</b><br>Test class: main.PackagedProductSetTest</td>
+<td title='main.ProductBatchTest.testGetProducts()'><b>testGetProducts</b><br>Test class: main.ProductBatchTest</td>
 <td></td>
 <td>0</td>
-<td>main.PackagedProductSetTest@1da51a35</td></tr>
+<td>main.ProductBatchTest@5a4041cc</td></tr>
 <tr>
-<td title='main.ProductPackagingTest.testConstructorNullName()'><b>testConstructorNullName</b><br>Test class: main.ProductPackagingTest</td>
+<td title='main.ContainsStringFilterTest.testGetPattern()'><b>testGetPattern</b><br>Test class: main.ContainsStringFilterTest</td>
+<td></td>
+<td>0</td>
+<td>main.ContainsStringFilterTest@3b94d659</td></tr>
+<tr>
+<td title='main.ProductServiceTest.testCounter()'><b>testCounter</b><br>Test class: main.ProductServiceTest</td>
+<td></td>
+<td>0</td>
+<td>main.ProductServiceTest@4bb4de6a</td></tr>
+<tr>
+<td title='main.WeightProductTest.testConstructorNullName()'><b>testConstructorNullName</b><br>Test class: main.WeightProductTest</td>
 <td><div><pre>java.lang.IllegalArgumentException
-	at main.ProductPackaging.&lt;init&gt;(ProductPackaging.java:15)
-	at main.ProductPackagingTest.testConstructorNullName(ProductPackagingTest.java:15)
+	at main.Product.&lt;init&gt;(Product.java:13)
+	at main.WeightProduct.&lt;init&gt;(WeightProduct.java:7)
+	at main.WeightProductTest.testConstructorNullName(WeightProductTest.java:9)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1519736165", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1519736165'><pre>java.lang.IllegalArgumentException
-	at main.ProductPackaging.&lt;init&gt;(ProductPackaging.java:15)
-	at main.ProductPackagingTest.testConstructorNullName(ProductPackagingTest.java:15)
+... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace690521419", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace690521419'><pre>java.lang.IllegalArgumentException
+	at main.Product.&lt;init&gt;(Product.java:13)
+	at main.WeightProduct.&lt;init&gt;(WeightProduct.java:7)
+	at main.WeightProductTest.testConstructorNullName(WeightProductTest.java:9)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</pre></div></td>
+<td>0</td>
+<td>main.WeightProductTest@3439f68d</td></tr>
+<tr>
+<td title='main.ProductPackagingTest.getWeightTest()'><b>getWeightTest</b><br>Test class: main.ProductPackagingTest</td>
+<td></td>
+<td>0</td>
+<td>main.ProductPackagingTest@15b3e5b</td></tr>
+<tr>
+<td title='main.ProductPackagingTest.testConstructorNegativeWeight()'><b>testConstructorNegativeWeight</b><br>Test class: main.ProductPackagingTest</td>
+<td><div><pre>java.lang.IllegalArgumentException: Negative weight!
+	at main.ProductPackaging.&lt;init&gt;(ProductPackaging.java:14)
+	at main.ProductPackagingTest.testConstructorNegativeWeight(ProductPackagingTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace26728049", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace26728049'><pre>java.lang.IllegalArgumentException: Negative weight!
+	at main.ProductPackaging.&lt;init&gt;(ProductPackaging.java:14)
+	at main.ProductPackagingTest.testConstructorNegativeWeight(ProductPackagingTest.java:19)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -465,17 +521,35 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>main.ProductPackagingTest@15b3e5b</td></tr>
 <tr>
-<td title='main.WeightProductTest.testConstructorNullDescription()'><b>testConstructorNullDescription</b><br>Test class: main.WeightProductTest</td>
+<td title='main.PackagedProductSetTest.testGetProducts()'><b>testGetProducts</b><br>Test class: main.PackagedProductSetTest</td>
+<td></td>
+<td>0</td>
+<td>main.PackagedProductSetTest@1da51a35</td></tr>
+<tr>
+<td title='main.ProductTest.toStringTest()'><b>toStringTest</b><br>Test class: main.ProductTest</td>
+<td></td>
+<td>0</td>
+<td>main.ProductTest@140e5a13</td></tr>
+<tr>
+<td title='main.BeginStringFilterTest.testApplyFalse()'><b>testApplyFalse</b><br>Test class: main.BeginStringFilterTest</td>
+<td></td>
+<td>0</td>
+<td>main.BeginStringFilterTest@5d11346a</td></tr>
+<tr>
+<td title='main.PackagedPieceProductTest.testGetCount()'><b>testGetCount</b><br>Test class: main.PackagedPieceProductTest</td>
+<td></td>
+<td>0</td>
+<td>main.PackagedPieceProductTest@543788f3</td></tr>
+<tr>
+<td title='main.ProductTest.testConstructorNullName()'><b>testConstructorNullName</b><br>Test class: main.ProductTest</td>
 <td><div><pre>java.lang.IllegalArgumentException
 	at main.Product.&lt;init&gt;(Product.java:13)
-	at main.WeightProduct.&lt;init&gt;(WeightProduct.java:7)
-	at main.WeightProductTest.testConstructorNullDescription(WeightProductTest.java:13)
+	at main.ProductTest.testConstructorNullName(ProductTest.java:14)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace343856911", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace343856911'><pre>java.lang.IllegalArgumentException
+... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1708570683", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1708570683'><pre>java.lang.IllegalArgumentException
 	at main.Product.&lt;init&gt;(Product.java:13)
-	at main.WeightProduct.&lt;init&gt;(WeightProduct.java:7)
-	at main.WeightProductTest.testConstructorNullDescription(WeightProductTest.java:13)
+	at main.ProductTest.testConstructorNullName(ProductTest.java:14)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -516,70 +590,37 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </pre></div></td>
 <td>0</td>
-<td>main.WeightProductTest@3439f68d</td></tr>
+<td>main.ProductTest@140e5a13</td></tr>
 <tr>
-<td title='main.ProductTest.equalsTest()'><b>equalsTest</b><br>Test class: main.ProductTest</td>
+<td title='main.ProductPackagingTest.toStringTest()'><b>toStringTest</b><br>Test class: main.ProductPackagingTest</td>
+<td></td>
+<td>0</td>
+<td>main.ProductPackagingTest@15b3e5b</td></tr>
+<tr>
+<td title='main.ProductTest.getNameTest()'><b>getNameTest</b><br>Test class: main.ProductTest</td>
 <td></td>
 <td>0</td>
 <td>main.ProductTest@140e5a13</td></tr>
+<tr>
+<td title='main.ProductServiceTest.testDeepCounter()'><b>testDeepCounter</b><br>Test class: main.ProductServiceTest</td>
+<td></td>
+<td>0</td>
+<td>main.ProductServiceTest@4bb4de6a</td></tr>
+<tr>
+<td title='main.ProductBatchTest.testGetWeight()'><b>testGetWeight</b><br>Test class: main.ProductBatchTest</td>
+<td></td>
+<td>0</td>
+<td>main.ProductBatchTest@5a4041cc</td></tr>
 <tr>
 <td title='main.BeginStringFilterTest.testApplyOK()'><b>testApplyOK</b><br>Test class: main.BeginStringFilterTest</td>
 <td></td>
 <td>0</td>
 <td>main.BeginStringFilterTest@5d11346a</td></tr>
 <tr>
-<td title='main.WeightProductTest.testConstructorNullName()'><b>testConstructorNullName</b><br>Test class: main.WeightProductTest</td>
-<td><div><pre>java.lang.IllegalArgumentException
-	at main.Product.&lt;init&gt;(Product.java:13)
-	at main.WeightProduct.&lt;init&gt;(WeightProduct.java:7)
-	at main.WeightProductTest.testConstructorNullName(WeightProductTest.java:8)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace102617125", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace102617125'><pre>java.lang.IllegalArgumentException
-	at main.Product.&lt;init&gt;(Product.java:13)
-	at main.WeightProduct.&lt;init&gt;(WeightProduct.java:7)
-	at main.WeightProductTest.testConstructorNullName(WeightProductTest.java:8)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</pre></div></td>
+<td title='main.PackagedProductSetTest.testGetNetWeight()'><b>testGetNetWeight</b><br>Test class: main.PackagedProductSetTest</td>
+<td></td>
 <td>0</td>
-<td>main.WeightProductTest@3439f68d</td></tr>
+<td>main.PackagedProductSetTest@1da51a35</td></tr>
 <tr>
 <td title='main.PackagedPieceProductTest.testGetGrossWeight()'><b>testGetGrossWeight</b><br>Test class: main.PackagedPieceProductTest</td>
 <td></td>
@@ -591,54 +632,8 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>main.EndStringFilterTest@35a50a4c</td></tr>
 <tr>
-<td title='main.ProductTest.testConstructorNullDescription()'><b>testConstructorNullDescription</b><br>Test class: main.ProductTest</td>
-<td><div><pre>java.lang.IllegalArgumentException
-	at main.Product.&lt;init&gt;(Product.java:13)
-	at main.ProductTest.testConstructorNullDescription(ProductTest.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace665726928", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace665726928'><pre>java.lang.IllegalArgumentException
-	at main.Product.&lt;init&gt;(Product.java:13)
-	at main.ProductTest.testConstructorNullDescription(ProductTest.java:19)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</pre></div></td>
+<td title='main.ProductTest.getWeightTest()'><b>getWeightTest</b><br>Test class: main.ProductTest</td>
+<td></td>
 <td>0</td>
 <td>main.ProductTest@140e5a13</td></tr>
 <tr>
@@ -646,6 +641,11 @@ function toggleAllBoxes() {
 <td></td>
 <td>0</td>
 <td>main.EndStringFilterTest@35a50a4c</td></tr>
+<tr>
+<td title='main.ProductServiceTest.testCheckAllWeighted()'><b>testCheckAllWeighted</b><br>Test class: main.ProductServiceTest</td>
+<td></td>
+<td>0</td>
+<td>main.ProductServiceTest@4bb4de6a</td></tr>
 </table><p>
 </body>
 </html>

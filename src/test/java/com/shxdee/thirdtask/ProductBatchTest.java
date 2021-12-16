@@ -1,8 +1,7 @@
 package main;
 
 import org.testng.annotations.Test;
-
-import static org.testng.AssertJUnit.assertEquals;
+import static org.testng.Assert.*;
 
 public class ProductBatchTest {
     ProductPackaging box = new ProductPackaging("Коробка", 10.0);

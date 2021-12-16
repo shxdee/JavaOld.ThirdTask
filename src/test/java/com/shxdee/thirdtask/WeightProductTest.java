@@ -1,6 +1,7 @@
 package main;
 
 import org.testng.annotations.Test;
+import static org.testng.Assert.*;
 
 public class WeightProductTest {
     @Test(expectedExceptions = IllegalArgumentException.class)

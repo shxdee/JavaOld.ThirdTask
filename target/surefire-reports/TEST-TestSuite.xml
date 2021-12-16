@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="40" failures="0" name="TestSuite" time="0.024" errors="0" skipped="0">
+<testsuite tests="40" failures="0" name="TestSuite" time="0.025" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.2.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -60,7 +60,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="main.BeginStringFilterTest" name="testApplyFalse" time="0.006"/>
+  <testcase classname="main.BeginStringFilterTest" name="testApplyFalse" time="0.005"/>
   <testcase classname="main.BeginStringFilterTest" name="testApplyOK" time="0"/>
   <testcase classname="main.BeginStringFilterTest" name="testGetPattern" time="0"/>
   <testcase classname="main.ContainsStringFilterTest" name="testApplyFalse" time="0"/>
@@ -71,7 +71,7 @@
   <testcase classname="main.EndStringFilterTest" name="testGetPattern" time="0"/>
   <testcase classname="main.PackagedPieceProductTest" name="testGetCount" time="0"/>
   <testcase classname="main.PackagedPieceProductTest" name="testGetGrossWeight" time="0"/>
-  <testcase classname="main.PackagedPieceProductTest" name="testGetNetWeight" time="0"/>
+  <testcase classname="main.PackagedPieceProductTest" name="testGetNetWeight" time="0.001"/>
   <testcase classname="main.PackagedPieceProductTest" name="testGetProduct" time="0"/>
   <testcase classname="main.PackagedProductSetTest" name="testGetGrossWeight" time="0.004"/>
   <testcase classname="main.PackagedProductSetTest" name="testGetNetWeight" time="0"/>
@@ -84,13 +84,13 @@
   <testcase classname="main.ProductBatchTest" name="testGetProducts" time="0"/>
   <testcase classname="main.ProductBatchTest" name="testGetWeight" time="0.001"/>
   <testcase classname="main.ProductPackagingTest" name="equalsTest" time="0"/>
-  <testcase classname="main.ProductPackagingTest" name="getNameTest" time="0.001"/>
+  <testcase classname="main.ProductPackagingTest" name="getNameTest" time="0"/>
   <testcase classname="main.ProductPackagingTest" name="getWeightTest" time="0"/>
   <testcase classname="main.ProductPackagingTest" name="testConstructorNegativeWeight" time="0"/>
-  <testcase classname="main.ProductPackagingTest" name="testConstructorNullName" time="0"/>
+  <testcase classname="main.ProductPackagingTest" name="testConstructorNullName" time="0.001"/>
   <testcase classname="main.ProductPackagingTest" name="toStringTest" time="0.01"/>
   <testcase classname="main.ProductServiceTest" name="testCheckAllWeighted" time="0.001"/>
-  <testcase classname="main.ProductServiceTest" name="testCounter" time="0"/>
+  <testcase classname="main.ProductServiceTest" name="testCounter" time="0.001"/>
   <testcase classname="main.ProductServiceTest" name="testDeepCounter" time="0.001"/>
   <testcase classname="main.ProductTest" name="equalsTest" time="0"/>
   <testcase classname="main.ProductTest" name="getNameTest" time="0"/>
